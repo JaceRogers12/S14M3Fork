@@ -112,7 +112,6 @@ router.post('/', validateScheme, (req, res, next) => {
 
 /*
   [POST] /api/schemes/5/steps { "instructions": "and yet more questing", "step_number": 2 }
-
   response:
   [
     {
